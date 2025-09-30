@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 # Step 1: Load dataset
-df = pd.read_excel("sg_listings_cleaned.xlsx")
+df = pd.read_csv("sg_listings_cleaned.csv")
 
 # Step 2: Basic exploration
 print("Shape of dataset:", df.shape)
